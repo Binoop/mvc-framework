@@ -1,0 +1,82 @@
+/* 
+    Document   : css
+    Created on : Jul 2, 2013, 3:53:21 PM
+    Author     : webandcrafts
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body,div,h1,h2,h3,h4,h5,h6,table,th,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 12px;
+    font-family:helvetica, Sans-Serif, Arial;
+    height: 100%;
+}
+#container{
+    width:960px;
+    margin: 0 auto;
+}
+#header{
+    height:60px;
+    margin: 0;
+    padding: 0;
+    background: url(http://localhost/erp/public/images/header.jpg);
+}
+#logo{
+     background: url(http://localhost/erp/public/images/logo.png) no-repeat;
+     float: left;
+}
+#navigation{
+    margin:20px 100px; 
+    float:left;
+}
+
+#logout{
+    float:right;
+}
+#logout:hover{
+    
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: activeborder;
+    text-align: center;
+}
+
+#footer span{
+    position: relative;
+    top: 10px;
+}
+
+/* Login Form */
+#login_form{
+    margin: 160px auto;
+    width: 371px;
+    height:400px;
+    background-image: url(http://localhost/erp/public/images/login.jpg);
+}
+
+
+
+#login_form table{
+    position: relative;
+    left: 30px;
+    top: 90px;
+}
+.loginField{
+    background: #E0E0E0;
+    border: 0;
+    width: 310px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
